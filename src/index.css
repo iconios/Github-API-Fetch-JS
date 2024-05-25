@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#form-container {
+    border-color: #5124E5;
+    border-width: 3px;
+}
+
+#main-form {
+    margin-left: auto;
+    margin-right: auto;
+}
