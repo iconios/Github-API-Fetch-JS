@@ -8,6 +8,10 @@ export default {
     extend: {
       colors: {
         "bright-purple": "#5124E5" 
+      },
+      screens: {
+        'sm': '320px',
+        // => @media (min-width: 320px) { ... }
       }
     },
   },
