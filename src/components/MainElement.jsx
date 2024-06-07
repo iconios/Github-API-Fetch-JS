@@ -53,17 +53,9 @@ function MainElement({ReceiveProps}) {
                 
     }
 
-    function PassProps(v, u) {
-
-        return (
-            <FormSection gitUsername = {u} nameOnGithub={v.name} worksAt={v.company} location={v.location} 
-            repos={v.public_repos} creationDate={v.created_at} UpdatedDate={v.updated_at} />
-        )
-    }
-
     function HandleChange(e) {
         if(e.key == "Enter") {
-            ReceiveInput();
+            //ReceiveInput();
         }
         else { setEntry(e.target.value); }
     }
